@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main page</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav-bar">
+            <a class="nav-bar__link"><span>link</span></a>
+            <a class="nav-bar__link"><span>link</span></a>
+            <a class="nav-bar__link"><span>link</span></a>
+            <a class="nav-bar__link"><span>link</span></a>
+        </nav>
+        <img class="logo" src="./images/skull_logo.png" alt="">
+    </header>
+    <main class="main">
+        <section class="main-content">
+            <div class="tmp-lab2">
+                <h2 class="tmp-lab2__title">Тексты для второй лабы</h3>
+                <p class="tmp-lab2__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quia blanditiis maxime ducimus, ratione harum veniam quod nesciunt quas molestiae quos! Consequuntur dolor sunt tempora ab, exercitationem omnis odit porro consequatur ipsa illo, aliquam voluptates quia unde, qui facere debitis?</p>
+                <p class="tmp-lab2__text tmp-lab2__text_colored">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia ratione at architecto natus cumque facere quam repudiandae inventore voluptates, recusandae fugit earum quisquam expedita! In voluptate doloribus libero odio quam!</p>
+                <p class="tmp-lab2__text tmp-lab2__text_centered">centered text</p>
+                <p class="tmp-lab2__text">Код
+                    <pre class="tmp-lab2__code">
+const url = 'https://neerc.ifmo.ru/lgd.pdf';
+const link = document.createElement('a');
+link.setAttribute('href', url);
+document.body.appendChild(link);
+link.click();
+link.remove();</pre>
+                </p>
+                <p class="tmp-lab2__text">Я не придумал, куда дальше вставить форматирование, вот всё сразу: <span class="ul">подчеркивание</span>, <span class="st">зачеркивание</span>, <span class="other">другие</span></p>
+            </div>
+            <br>
+            <div class="gallery">
+                <img src="./images/dc_skull.png" alt="" class="gallery__picture">
+                <img src="./images/smol_skull.png" alt="" class="gallery__picture">
+                <img src="./images/wide_skull.png" alt="" class="gallery__picture">
+                <img src="./images/skull_emoji1.png" alt="" class="gallery__picture">
+                <img src="./images/skull_emoji2.png" alt="" class="gallery__picture">
+                <img src="./images/skull_emoji3.png" alt="" class="gallery__picture">
+                <img src="./images/skull_emoji4.png" alt="" class="gallery__picture">
+                <img src="./images/skull_emoji5.png" alt="" class="gallery__picture">
+                <img src="./images/mz_skull.png" alt="" class="gallery__picture">
+                <img src="./images/dc_skull.png" alt="" class="gallery__picture">
+                <img src="./images/smol_skull.png" alt="" class="gallery__picture">
+                <img src="./images/skull_emoji1.png" alt="" class="gallery__picture">
+                <img src="./images/skull_emoji3.png" alt="" class="gallery__picture">
+                <img src="./images/skull_emoji4.png" alt="" class="gallery__picture">
+                <img src="./images/skull_emoji5.png" alt="" class="gallery__picture">
+                <img src="./images/mz_skull.png" alt="" class="gallery__picture">
+                <img src="./images/wide_skull.png" alt="" class="gallery__picture">
+                <img src="./images/dc_skull.png" alt="" class="gallery__picture">
+                <img src="./images/wide_skull.png" alt="" class="gallery__picture">
+                <img src="./images/smol_skull.png" alt="" class="gallery__picture">
+                <img src="./images/skull_emoji1.png" alt="" class="gallery__picture">
+                <img src="./images/skull_emoji2.png" alt="" class="gallery__picture">
+                <img src="./images/skull_emoji3.png" alt="" class="gallery__picture">
+                <img src="./images/skull_emoji4.png" alt="" class="gallery__picture">
+                <img src="./images/skull_emoji5.png" alt="" class="gallery__picture">
+                <img src="./images/mz_skull.png" alt="" class="gallery__picture">
+                <img src="./images/dc_skull.png" alt="" class="gallery__picture">
+                <img src="./images/wide_skull.png" alt="" class="gallery__picture">
+                <img src="./images/smol_skull.png" alt="" class="gallery__picture">
+                <img src="./images/skull_emoji1.png" alt="" class="gallery__picture">
+                <img src="./images/skull_emoji2.png" alt="" class="gallery__picture">
+                <img src="./images/skull_emoji3.png" alt="" class="gallery__picture">
+                <img src="./images/skull_emoji4.png" alt="" class="gallery__picture">
+                <img src="./images/skull_emoji5.png" alt="" class="gallery__picture">
+                <img src="./images/skull_emoji1.png" alt="" class="gallery__picture">
+
+            </div>
+            
+        </section>
+        <aside class="sidebar">
+            <div class="sidebar__options">
+                <div class="sidebar__option"><span>OPTION1</span></div>
+                <div class="sidebar__option"><span>OPTION2</span></div>
+            </div>
+            <div class="sidebar__list">
+                <div class="sidebar__list-item"></div>
+                <div class="sidebar__list-item"></div>
+                <div class="sidebar__list-item"></div>
+                <div class="sidebar__list-item"></div>
+                <div class="sidebar__list-item"></div>
+                <div class="sidebar__list-item"></div>
+                <div class="sidebar__list-item"></div>
+                <div class="sidebar__list-item"></div>
+                <div class="sidebar__list-item"></div>
+                <div class="sidebar__list-item"></div>
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <p>Some footer text</p>
+    </footer>
+</body>
+
+</html>
