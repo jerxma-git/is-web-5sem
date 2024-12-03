@@ -33,6 +33,10 @@ body {
     border-radius: 10px;
 }
 
+.nav-bar__link_current {
+    background-color: #fec277;
+}
+
 .nav-bar__link:hover {
     background-color: #8f806d;
 }

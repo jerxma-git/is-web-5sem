@@ -1,8 +1,9 @@
+let btn = null;
+let playground = null;
+
+const BTN_MOVE_DELAY_MS = 200;
 
 function move() {
-    let btn = document.querySelector(".target-button");
-    let playground = document.querySelector(".playground");
-    
     let buttonWidth = btn.clientWidth;
     let buttonHeight = btn.clientHeight;
     
@@ -14,10 +15,11 @@ function move() {
 }
 
 window.addEventListener("load", () => {
-    let btn = document.querySelector(".target-button");
+    btn = document.querySelector(".target-button");
+    playground = document.querySelector(".playground");
 
     btn.addEventListener("mouseover", () => {
-        setTimeout(move, 200);
+        setTimeout(move, BTN_MOVE_DELAY_MS);
     });
     
     btn.addEventListener("click", () => {
