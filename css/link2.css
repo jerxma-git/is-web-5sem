@@ -2,4 +2,86 @@
     text-align: center;
     font-weight: bold;
     font-size: 48px;
+    margin-bottom: 40px;
+}
+
+.skull-creator {
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skull-creator__name-input > input {
+    margin-left: 10px;
+}
+
+.skull-creator__star-container {
+    margin-left: 10px;
+}
+
+.skull-creator__coolness-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.skull-creator__star_inactive {
+    fill: lightgray;
+}
+
+.skull-creator__star_active {
+    fill: orange;
+}
+
+.skull-creator__coolness-input > input {
+    display: none;
+} 
+
+
+.skull-grid {
+    width: 500px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin-top: 40px;
+    background-color: black;
+    border: 1px solid black;
+    gap: 1px;
+}
+
+.skull-grid * {
+    background-color: white;
+}
+
+.skull-grid__header {
+    display: contents;
+    font-weight: bold;
+    text-align: center;
+}
+
+.skull-grid__body {
+    display: contents;
+}
+
+.skull-grid__row {
+    display: contents;
+}
+
+.skull-grid__row > div {
+    padding: 5px;
+}
+
+.skull-container {
+    position: relative;
+}
+
+.skull-container__controls {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
